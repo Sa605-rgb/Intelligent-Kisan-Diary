@@ -4,7 +4,7 @@
 
 Farmers log land, crops, fertilizer, and pesticide. The Python model ranks crops for their city, season, and soil. Neighbours’ public activities and an admin dashboard sit on the same API.
 
-The app is **React Native** (`frontend/`) plus **Python** FastAPI + scikit-learn (`backend/`). GitHub’s language bar counts Python; the mobile UI is still in this repo.
+The app is **React Native** (`frontend/`) plus **Python** FastAPI + scikit-learn (`backend/`).
 
 ## Screenshots
 

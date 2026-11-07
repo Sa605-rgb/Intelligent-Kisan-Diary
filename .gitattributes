@@ -1,8 +1,10 @@
-# GitHub language bar: Python (FastAPI + sklearn).
-# React Native stays in frontend/ — it is just not counted as a language.
-frontend/** linguist-vendored
+# Hide the GitHub Languages sidebar (no JS / Python bar).
+* linguist-vendored
+*.py linguist-vendored
+*.js linguist-vendored
+*.json linguist-vendored
+*.tsx linguist-vendored
+*.ts linguist-vendored
+*.kt linguist-vendored
+*.swift linguist-vendored
 docs/** linguist-documentation
-*.pkl linguist-vendored
-package-lock.json linguist-generated
-**/package-lock.json linguist-generated
-backend/*.py linguist-detectable
