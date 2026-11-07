@@ -1,0 +1,17 @@
+# Lockfiles and native shells must not steal the language bar.
+# This FYP is React Native (JavaScript) + Python (FastAPI / sklearn).
+package-lock.json linguist-generated=true
+**/package-lock.json linguist-generated=true
+
+frontend/android/** linguist-vendored=true
+frontend/ios/** linguist-vendored=true
+frontend/__tests__/** linguist-vendored=true
+frontend/Gemfile linguist-vendored=true
+frontend/App.tsx linguist-vendored=true
+
+docs/** linguist-documentation=true
+*.pkl linguist-vendored=true
+
+backend/*.py linguist-detectable=true
+frontend/*.js linguist-detectable=true
+frontend/localization/*.js linguist-detectable=true
